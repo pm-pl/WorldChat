@@ -6,5 +6,8 @@ log-chat-disabled: true
 #disabled-in-worlds:
 # - world
 # - world2
-disabled-in-worlds: []
+disabled-in-worlds:
+  - World #Example
+  - Pvp #Example
+  - Survival #Example
 ...
