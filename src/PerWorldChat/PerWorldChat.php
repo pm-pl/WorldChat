@@ -1,14 +1,14 @@
 <?php
 
 /*
- * PerWorldChat v1.8 by EvolSoft
+ * PerWorldChat v2.0 by Henry12960
  * Developer: Flavius12
- * Website: https://www.evolsoft.tk
- * Copyright (C) 2014-2018 EvolSoft
- * Licensed under MIT (https://github.com/EvolSoft/PerWorldChat/blob/master/LICENSE)
+ * Website: https://github.com/Henry12960
+ * Copyright (C) 2014-2022 Henry
+ * Licensed under MIT https://github.com/Henry12960
  */
 
-namespace PerWorldChat;
+namespace PerWorldChat\PerWorldChat;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
@@ -16,7 +16,7 @@ use pocketmine\utils\TextFormat;
 class PerWorldChat extends PluginBase {
 	
     /** @var string */
-	const PREFIX = "&a[&bPer&cWorld&dChat&a] ";
+	const PREFIX = "&6[WorldChat] ";
 	
 	/** @var array */
 	public $cfg;
