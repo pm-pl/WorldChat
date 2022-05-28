@@ -4,7 +4,7 @@ namespace WorldChat\WorldChat;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\utils\TextFormat;
 
 class EventListener implements Listener {
