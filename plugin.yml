@@ -1,8 +1,8 @@
-name: WorldChat4.0
+name: PerWorldChat
 main: PerWorldChat\PerWorldChat
 version: 2.0
 api: 4.0.0
 load: STARTUP
-author: Henry,EvolSoft
+author: EvolSoft #edited by Henry
 description: Set a separate chat for each world
 website: https://github.com/Henry12960
