@@ -8,7 +8,7 @@ PocketMine-MP plugins | Php 8
 
 ## Requirements
 
-PocketMine-MP API 4.0.0
+PocketMine-MP API 4.0.0 and PHP 8 or PHP 7
 
 ## Overview
 
