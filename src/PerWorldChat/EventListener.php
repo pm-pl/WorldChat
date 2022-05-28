@@ -9,7 +9,7 @@
  */Z
 
 
-namespace PerWorldChat;
+namespace PerWorldChat\PerWorldChat;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
