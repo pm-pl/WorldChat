@@ -20,4 +20,4 @@ PocketMine-MP API 4.0.0 and PHP 8 or PHP 7
 
 ## Warning
 
-***this is a update version of the LimitHeight plugin updated to pocketmine 4.0, it's still under development, I'm not responsible for damages and errors to your server!.***
+***this is a update version of the PerWoldChat plugin updated to pocketmine 4.0, it's still under development, I'm not responsible for damages and errors to your server!.***
