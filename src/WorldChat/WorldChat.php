@@ -13,7 +13,7 @@ class WorldChat extends PluginBase {
 	/** @var array */
 	public $cfg;
 	
-    public function onEnable(){
+    public function onEnable() : void {
         @mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
         $this->cfg = $this->getConfig()->getAll();
