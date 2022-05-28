@@ -4,9 +4,11 @@ namespace WorldChat\WorldChat;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
+
+class WorldChat extends PluginBase {
 	
     /** @var string */
-	const PREFIX = "&6[WorlChat] ";
+	const PREFIX = "&6[WorldChat] ";
 	
 	/** @var array */
 	public $cfg;
