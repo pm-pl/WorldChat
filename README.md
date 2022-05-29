@@ -1,3 +1,6 @@
+[![](https://poggit.pmmp.io/shield.state/WorldChat)](https://poggit.pmmp.io/p/WorldChat)
+<a href="https://poggit.pmmp.io/p/WorldChat"><img src="https://poggit.pmmp.io/shield.state/WorldChat"></a>
+
 # WorldChat
 
 Fix Per World Chat plugin for PocketMine-MP **API 4.0**
