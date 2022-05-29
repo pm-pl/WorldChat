@@ -38,3 +38,4 @@ class EventListener implements Listener {
 		$event->setRecipients($recipients);
 	}
 }
+#verified code by https://phpcodechecker.com/
