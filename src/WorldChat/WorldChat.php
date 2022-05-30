@@ -1,6 +1,6 @@
 <?php
 
-namespace WorldChat\WorldChat;
+namespace WorldChat;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;

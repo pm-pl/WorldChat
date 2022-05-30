@@ -1,6 +1,6 @@
 <?php
 
-namespace WorldChat\WorldChat;
+namespace WorldChat;
 
 use pocketmine\event\Listener;
 use pocketmine\event\player\PlayerChatEvent;
@@ -21,9 +21,9 @@ class EventListener implements Listener {
 	 */
 	public function onChat(PlayerChatEvent $event){
 		$player = $event->getPlayer();
-		if($this->plugin->isChatDisabled($player->getLevel()->getName())){
+		if($this->plugin->isChatDisabled($player->getLevel()->getName())) {
 		    if($this->plugin->cfg["log-chat-disabled"]){
-		        $player->sendMessage(TextFormat::colorize(WorldChat::PREFIX . "&cChat disabled!"));
+		        $player->sendMessage(TextFormat::colorize(WorldChat::PREFIX . "&cChat disabled on this world"));
 		    }
 		    $event->cancel();
 		}
@@ -38,4 +38,3 @@ class EventListener implements Listener {
 		$event->setRecipients($recipients);
 	}
 }
-#verified code by https://phpcodechecker.com/
