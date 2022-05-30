@@ -21,7 +21,7 @@ class EventListener implements Listener {
 	 */
 	public function onChat(PlayerChatEvent $event){
 		$player = $event->getPlayer();
-		if($this->plugin->isChatDisabled($player->getLevel()->getName())) {
+		if($this->plugin->isChatDisabled($player->getWorld ()->getDisplayName())) {
 		    if($this->plugin->cfg["log-chat-disabled"]){
 		        $player->sendMessage(TextFormat::colorize(WorldChat::PREFIX . "&cChat disabled on this world"));
 		    }
@@ -29,7 +29,7 @@ class EventListener implements Listener {
 		}
 		$recipients = $event->getRecipients();
 		foreach($recipients as $key => $recipient){
-			if($recipient instanceof Player){
+			if($recipient->getWorld() != $player->getWorld()){
 				if($recipient->getLevel() != $player->getLevel()){
 					unset($recipients[$key]);
 				}
