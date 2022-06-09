@@ -16,9 +16,6 @@ class EventListener implements Listener {
 		$this->plugin = $plugin;
 	}
 	
-	/**
-	 * @param PlayerChatEvent $event
-	 */
 	public function onChat(PlayerChatEvent $event){
 		$player = $event->getPlayer();
 		if($this->plugin->isChatDisabled($player->getWorld()->getDisplayName())) {
