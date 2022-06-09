@@ -29,3 +29,4 @@ class WorldChat extends PluginBase {
     	return false;
     }
 }
+#Tested and approved!
