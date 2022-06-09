@@ -20,13 +20,6 @@ class WorldChat extends PluginBase {
 	    $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
     }
     
-    /**
-     * Check if chat is disabled on the specified world
-     * 
-     * @param string
-     * 
-     * @return bool
-     */
     public function isChatDisabled($level) : bool {
     	foreach($this->cfg["disabled-in-worlds"] as $item){
     	    if(strcasecmp($item, $level) == 0){
