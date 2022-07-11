@@ -3,6 +3,9 @@
 log-chat-disabled: true
 #World list where chat is disabled
 #For example:
+
+#plugin prefix:
+prefix: "[WorlChat]"
 #disabled-in-worlds:
 # - world
 # - world2
