@@ -7,8 +7,8 @@ use pocketmine\utils\TextFormat;
 
 class WorldChat extends PluginBase {
 	
-    /** @var string */
-	const PREFIX = "&6[WorldChat] ";
+        /** @var string */
+	const PREFIX = $this->getConfig()->get("prefix");
 	
 	/** @var array */
 	public $cfg;
