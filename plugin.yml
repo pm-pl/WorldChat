@@ -2,7 +2,7 @@
 name: WorldChat
 main: WorldChat\WorldChat
 version: 2.0
-api: 4.5.0
+api: 4.0.0
 load: STARTUP
 author: Henry12960
 description: Set a separate chat for each world
