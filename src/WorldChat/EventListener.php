@@ -8,11 +8,8 @@ use pocketmine\player\Player;
 use pocketmine\utils\TextFormat;
 
 class EventListener implements Listener {
-	
-    /** @var WorldChat */
-    private $plugin;
     
-	public function __construct(WorldChat $plugin){
+	public function __construct(private WorldChat $plugin){
 		$this->plugin = $plugin;
 	}
 	
