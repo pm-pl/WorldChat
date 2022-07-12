@@ -6,9 +6,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\utils\TextFormat;
 
 class WorldChat extends PluginBase {
-	
-	public $prefix = $this->getConfig()->get("prefix");
-	
+
 	/** @var array */
 	public $cfg;
 	
@@ -20,8 +18,8 @@ class WorldChat extends PluginBase {
     }
     
     public function isChatDisabled($level) : bool {
-    	foreach($this->cfg["disabled-in-worlds"] as $item){
-    	    if(strcasecmp($item, $level) == 0){
+    	foreach($this->cfg["disabled-in-worlds"] as $item) {
+    	    if(strcasecmp($item, $level) == 0) {
     	        return true;
     	    }
     	}
