@@ -7,14 +7,14 @@ use pocketmine\utils\TextFormat;
 
 class WorldChat extends PluginBase {
 
-	/** @var array */
-	public array $cfg = [];
+    /** @var array */
+    public array $cfg = [];
 	
     public function onEnable() : void {
         @mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
         $this->cfg = $this->getConfig()->getAll();
-	    $this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
+	$this->getServer()->getPluginManager()->registerEvents(new EventListener($this), $this);
     }
     
     public function isChatDisabled($level) : bool {
@@ -23,7 +23,6 @@ class WorldChat extends PluginBase {
     	        return true;
     	    }
     	}
-    	return false;
+    return false;
     }
 }
-#Tested and approved!
