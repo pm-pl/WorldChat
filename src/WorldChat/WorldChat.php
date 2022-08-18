@@ -8,7 +8,7 @@ use pocketmine\utils\TextFormat;
 class WorldChat extends PluginBase {
 
 	/** @var array */
-	public $cfg;
+	public array $cfg = [];
 	
     public function onEnable() : void {
         @mkdir($this->getDataFolder());
